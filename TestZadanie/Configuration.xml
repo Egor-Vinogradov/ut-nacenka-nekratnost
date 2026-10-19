@@ -71,6 +71,7 @@
 			<Role>тз_ИзменениеНаценкиЗаНекратность</Role>
 			<Role>тз_НастройкаНаценкиИУровней</Role>
 			<Role>тз_ОсновнаяРоль</Role>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>тз_НаценкаЗаНекратностьСервер</CommonModule>
 			<CommonModule>тз_УровниПокупателейСервер</CommonModule>
 			<Constant>тз_ПроцентНаценкиЗаНекратность</Constant>
