@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Configuration.ТестовоеЗадание" id="4589ac1f-b0f0-464f-8fe8-98cd95d73f54" configVersion="de5eb4a3f2c75991ee2c35f142d29afa62d3a2d5"/>
+		<Metadata name="Catalog.ВидыНоменклатуры" id="112d9c5f-bb11-4d8c-a274-c93cd7a9b3f3" configVersion="4cd9c1a3241faa930d5a10a6e3542cbde3efc70c"/>
+		<Metadata name="Configuration.ТестовоеЗадание" id="4589ac1f-b0f0-464f-8fe8-98cd95d73f54" configVersion="9c0b85f76b7aadfcc51539351a4272b9f7a218c2"/>
+		<Metadata name="Document.ЧекККМ" id="60b431c6-c840-4eb6-bedb-105ee1fb2974" configVersion="ee90db888bdf500a4d8d7a3c73046ef0c50e61a1"/>
 		<Metadata name="Language.Русский" id="98417243-3b4b-4c48-9926-e0628e192de1" configVersion="6b495364bbebc53b9f02978d8e8638efd0480546"/>
 		<Metadata name="Role.тз_ОсновнаяРоль" id="d4a11f08-6d3b-426f-ac20-3895ee84ed78" configVersion="17d205aa818e00f95df7a9b5f11fc826458b5b06"/>
 	</ConfigVersions>

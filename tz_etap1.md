@@ -1,0 +1,84 @@
+# Этап 1. Каркас метаданных
+
+## Резервная копия
+
+`D:\cursor\TestCoder\backup\baza_do_etapa1.dt`, 969 192 682 байт, 19.10.2026 12:35:40. Лог: «Выгрузка информационной базы успешно завершена».
+
+## Что сделала выгрузка из Конфигуратора
+
+Пользователь заимствовал `ВидыНоменклатуры` и `ЧекККМ` и выгрузил расширение в `D:\cursor\TestCoder\TestZadanie` (13:02:07). Отдельного пути не было.
+
+Перезаписаны:
+
+- `TestZadanie\Configuration.xml` — в `ChildObjects` добавлены `Catalog.ВидыНоменклатуры` и `Document.ЧекККМ`.
+- `TestZadanie\ConfigDumpInfo.xml` — версии этих объектов.
+- `TestZadanie\Catalogs\ВидыНоменклатуры.xml` и `TestZadanie\Documents\ЧекККМ.xml` — ранее сгенерированные файлы заменены выгрузкой. В git они ещё не входили (были неотслеживаемыми).
+
+Остальные сгенерированные файлы (другие справочники и документы, регистры, константа, перечисление, модули, роли, подсистема) на месте. Удалённых файлов нет.
+
+Эталон скопирован в `D:\cursor\TestCoder\_etalon` без правок: `Configuration.xml`, `ConfigDumpInfo.xml`, `Catalogs\ВидыНоменклатуры.xml`, `Documents\ЧекККМ.xml`. Коммит `Эталон заимствования из Конфигуратора`.
+
+## Эталон заимствованного объекта
+
+Модулей и форм в выгрузке нет: только xml объекта.
+
+### Справочник
+
+`InternalInfo` — пять `GeneratedType`, у каждого свой `TypeId` и `ValueId`:
+
+- `CatalogObject.<Имя>`, category `Object`
+- `CatalogRef.<Имя>`, category `Ref`
+- `CatalogSelection.<Имя>`, category `Selection`
+- `CatalogList.<Имя>`, category `List`
+- `CatalogManager.<Имя>`, category `Manager`
+
+`Properties`, и только они:
+
+- `ObjectBelonging` = `Adopted`
+- `Name`
+- `Comment` (пустой)
+- `ExtendedConfigurationObject` — uuid объекта в основной конфигурации
+
+`ChildObjects` — пустой элемент `<ChildObjects/>`. Без него загрузка отвечает: «Текущее Catalog, ожидаемое ChildObjects».
+
+`ВидыНоменклатуры`: uuid расширения `112d9c5f-bb11-4d8c-a274-c93cd7a9b3f3`, `ExtendedConfigurationObject` `f3b86010-6dc9-4bd6-9fda-850ce2f2ea58`. Файл в `TestZadanie` совпадает с `_etalon`.
+
+### Документ
+
+Те же пять типов: `DocumentObject`, `DocumentRef`, `DocumentSelection`, `DocumentList`, `DocumentManager`.
+
+`Properties` как у справочника, плюс пустой `<RegisterRecords/>`. Затем `<ChildObjects/>`.
+
+`ЧекККМ`: uuid расширения `60b431c6-c840-4eb6-bedb-105ee1fb2974`, `ExtendedConfigurationObject` `c285371e-3f47-40b7-ae0f-80022d7c7f9a`. Файл в `TestZadanie` совпадает с `_etalon`.
+
+### Configuration.xml эталона
+
+`ChildObjects` в порядке типов: `Language.Русский`, `Role.тз_ОсновнаяРоль`, `Catalog.ВидыНоменклатуры`, `Document.ЧекККМ`. Вложенные объекты в этом списке не дублируются.
+
+## Свои объекты
+
+Сверены с `osn`: `InternalInfo` (где он есть у типа) → `Properties` → `ChildObjects`.
+
+- Перечисление и регистры сведений: `InternalInfo` с `GeneratedType`, `Properties`, непустой `ChildObjects`.
+- Подсистема `тз_НаценкиИУровни`: как `osn` `Subsystem` — без `InternalInfo`, `Properties` (включая `Content`), пустой `<ChildObjects/>`.
+- Константа: `InternalInfo` и `Properties`, без `ChildObjects` (так же у констант `osn`).
+- Общие модули и роли: только `Properties` (так же `osn`). Права ролей лежат в `Ext\Rights.xml`, модули — в `Ext\Module.bsl`.
+- Заимствованная `Администрирование`: `Properties` с `ObjectBelonging`, `Name`, `Comment`, `ExtendedConfigurationObject` `6b8ea295-dbfb-4fe2-91fd-a57179d300c3`; `ChildObjects` содержит только `тз_НаценкиИУровни`. Пустой `InternalInfo` убран: у подсистемы в `osn` этого узла нет.
+
+`ConfigDumpInfo.xml` вручную не дополнялся.
+
+## Загрузка
+
+Итерации ниже.
+
+### Итерация B3
+
+Команда загрузки без `/UpdateDBCfg`, пользователь `Admin`, `/DisableStartupDialogs`. Код **0**, `scripts\B3.res` = `0`, 10,2 с. Лог пустой. Правок XML между запуском и успехом не потребовалось: формат уже приведён к эталону (`GeneratedType` и пустой `<ChildObjects/>`).
+
+### Шаг C
+
+`/UpdateDBCfg -Extension ТестовоеЗадание`. Код **0**, `scripts\C.res` = `0`, 11,1 с.
+
+В логе созданы объекты расширения: перечисление `тз_УровниПокупателей`, константа `тз_ПроцентНаценкиЗаНекратность`, регистры `тз_КратностьПродажи`, `тз_УровниПартнеров`, `тз_УровниПокупателейПоИНН`. Также перечислены изменения ряда объектов основной конфигурации в базе (план обмена и несколько справочников и регистров) — это протокол обновления конфигурации базы, файлы `osn` не менялись.
+
+`scripts\load.cmd` запускает эти две команды раздельно, с `/N "Admin"` и `/DisableStartupDialogs`, без `/P`.

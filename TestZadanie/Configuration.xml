@@ -67,7 +67,27 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Администрирование</Subsystem>
+			<Role>тз_ИзменениеНаценкиЗаНекратность</Role>
+			<Role>тз_НастройкаНаценкиИУровней</Role>
 			<Role>тз_ОсновнаяРоль</Role>
+			<CommonModule>тз_НаценкаЗаНекратностьСервер</CommonModule>
+			<CommonModule>тз_УровниПокупателейСервер</CommonModule>
+			<Constant>тз_ПроцентНаценкиЗаНекратность</Constant>
+			<Catalog>ВидыНоменклатуры</Catalog>
+			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>Партнеры</Catalog>
+			<Catalog>СкидкиНаценки</Catalog>
+			<Document>ЗаказКлиента</Document>
+			<Document>ОтчетОРозничныхПродажах</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>ЧекККМ</Document>
+			<Enum>тз_УровниПокупателей</Enum>
+			<InformationRegister>тз_КратностьПродажи</InformationRegister>
+			<InformationRegister>тз_УровниПартнеров</InformationRegister>
+			<InformationRegister>тз_УровниПокупателейПоИНН</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

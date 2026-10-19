@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="76decb18-3a59-4349-acd1-aa4787382b93">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОРозничныхПродажах" category="Object">
+				<xr:TypeId>c65f184a-07c1-4a3f-ba3e-c3919c578b1b</xr:TypeId>
+				<xr:ValueId>961effa5-d2ab-41b0-a243-820ed0ee3283</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОРозничныхПродажах" category="Ref">
+				<xr:TypeId>c5fc8e24-9055-4f81-9818-5706bb3f62c5</xr:TypeId>
+				<xr:ValueId>4b8e7052-105b-4e69-a351-70b1e1a2b569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОРозничныхПродажах" category="Selection">
+				<xr:TypeId>0cb5001a-6810-4f87-9d68-a75c045d1947</xr:TypeId>
+				<xr:ValueId>2569b5a8-b519-4cb7-b11c-1e9d67af3143</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОРозничныхПродажах" category="List">
+				<xr:TypeId>82e9b9b4-d4c5-4f12-b0af-55875645a661</xr:TypeId>
+				<xr:ValueId>b4e4ad60-f9c4-4881-93d3-b75f0a19e34c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОРозничныхПродажах" category="Manager">
+				<xr:TypeId>aa68950a-2d3b-4506-9601-fc51498d9e59</xr:TypeId>
+				<xr:ValueId>9e029fc2-6b9e-4c52-a89e-225fa314d8ae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОРозничныхПродажах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dc549688-ab97-476f-bcae-1b918895b132</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

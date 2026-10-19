@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="9469e360-6bb0-41c5-a43a-8c8585250028">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкидкиНаценки" category="Object">
+				<xr:TypeId>3cca0cd5-e3d0-4400-8336-e36e34e5e349</xr:TypeId>
+				<xr:ValueId>c6499786-cf56-4686-af3d-87ac72ccd130</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкидкиНаценки" category="Ref">
+				<xr:TypeId>ecde9586-2644-4749-891e-876dfbe7503d</xr:TypeId>
+				<xr:ValueId>f8909ad2-1328-4b74-9f23-8bf11da41fbc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкидкиНаценки" category="Selection">
+				<xr:TypeId>3a8cf07b-da37-44c6-ab95-0be31a80c8c1</xr:TypeId>
+				<xr:ValueId>d0758733-c4ce-41d4-9dbe-40fcf5162078</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкидкиНаценки" category="List">
+				<xr:TypeId>bd90e337-e14c-4d04-b300-29f6bd9cf2c5</xr:TypeId>
+				<xr:ValueId>8fb38534-f36e-4535-83ed-fff3b5d0329f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкидкиНаценки" category="Manager">
+				<xr:TypeId>3aa31f71-a4c8-492b-a7ff-ed35373c20f6</xr:TypeId>
+				<xr:ValueId>91794294-e017-4098-961a-3e96a3ed89ae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкидкиНаценки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>25600f00-5a0f-4302-95ea-d20a98b8212d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
