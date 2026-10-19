@@ -3,7 +3,12 @@
 	<Role uuid="d4a11f08-6d3b-426f-ac20-3895ee84ed78">
 		<Properties>
 			<Name>тз_ОсновнаяРоль</Name>
-			<Synonym/>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>тз Основная роль</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 		</Properties>
 	</Role>

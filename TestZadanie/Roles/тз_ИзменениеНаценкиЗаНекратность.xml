@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Изменение наценки за некратность</v8:content>
+					<v8:content>тз Изменение наценки за некратность</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Маркер обхода контроля наценки за некратность. Права на объекты не выдаёт.</Comment>

@@ -76,6 +76,7 @@
 			<CommonModule>тз_НаценкаЗаНекратностьВызовСервера</CommonModule>
 			<CommonModule>тз_НаценкаЗаНекратностьСервер</CommonModule>
 			<CommonModule>тз_УровниПокупателейСервер</CommonModule>
+			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonCommand>тз_ВключитьНаценкуПоверхСкидок</CommonCommand>
 			<CommonCommand>тз_НастроитьНаценкуЗаНекратность</CommonCommand>
 			<Constant>тз_ПроцентНаценкиЗаНекратность</Constant>
