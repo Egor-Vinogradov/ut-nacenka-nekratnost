@@ -1,0 +1,7 @@
+osn/
+_base/
+backup/
+*.cf
+*.cfe
+*.dt
+*.log
