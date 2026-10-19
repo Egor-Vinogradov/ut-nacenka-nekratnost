@@ -22,6 +22,15 @@ echo Load exit code: %ERR%
 if exist "%LOGDIR%load_user.log" type "%LOGDIR%load_user.log"
 if not "%ERR%"=="0" exit /b %ERR%
 
+echo.
+echo ВНИМАНИЕ. При первой загрузке в базу платформа включает у расширения безопасный режим.
+echo Ключа DESIGNER, который снимает этот флажок, нет. ibcmd в поставке 8.5.1.1343 нет.
+echo Повторная загрузка файлов флажок не включает: это свойство расширения в базе, не в XML.
+echo Снимите флажок и заново откройте Предприятие.
+echo Конфигуратор: Конфигурация - Расширения конфигурации - %EXT% - снять "Безопасный режим".
+echo Предприятие: НСИ и администрирование - Печатные формы, отчеты и обработки - Расширения - снять "Безопасный режим".
+echo.
+
 "%PLATFORM%" DESIGNER /F "%IB%" /N "Admin" /DisableStartupDialogs /DisableStartupMessages /UpdateDBCfg -Extension %EXT% /Out "%LOGDIR%update_user.log" /DumpResult "%LOGDIR%update_user.res"
 set ERR=%ERRORLEVEL%
 echo Update exit code: %ERR%
