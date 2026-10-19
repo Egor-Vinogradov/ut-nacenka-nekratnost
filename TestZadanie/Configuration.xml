@@ -84,6 +84,7 @@
 			<CommonCommand>тз_ЗаполнитьУровниИЦены</CommonCommand>
 			<CommonCommand>тз_НастроитьНаценкуЗаНекратность</CommonCommand>
 			<CommonCommand>тз_УровеньПокупателя</CommonCommand>
+			<Constant>тз_ОтладкаКонтроля</Constant>
 			<Constant>тз_ПроцентНаценкиЗаНекратность</Constant>
 			<Constant>тз_СкидкаНаценкаЗаНекратность</Constant>
 			<Catalog>ВидыНоменклатуры</Catalog>

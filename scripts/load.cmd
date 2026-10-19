@@ -26,4 +26,17 @@ if not "%ERR%"=="0" exit /b %ERR%
 set ERR=%ERRORLEVEL%
 echo Update exit code: %ERR%
 if exist "%LOGDIR%update.log" type "%LOGDIR%update.log"
-exit /b %ERR%
+if not "%ERR%"=="0" exit /b %ERR%
+
+"%PLATFORM%" DESIGNER /F "%IB%" /N "Admin" /DisableStartupDialogs /DisableStartupMessages /CheckModules -ThinClient -Server -ExternalConnection -Extension %EXT% /Out "%LOGDIR%check.log" /DumpResult "%LOGDIR%check.res"
+set ERR=%ERRORLEVEL%
+echo Check exit code: %ERR%
+if exist "%LOGDIR%check.log" type "%LOGDIR%check.log"
+if not "%ERR%"=="0" exit /b %ERR%
+powershell -NoProfile -Command "if (Test-Path -LiteralPath '%LOGDIR%check.log') { if (Select-String -LiteralPath '%LOGDIR%check.log' -Pattern '\(\d+,\d+\)' -Quiet) { exit 1 } }; exit 0"
+set ERR=%ERRORLEVEL%
+if not "%ERR%"=="0" (
+  echo Check log contains module errors.
+  exit /b %ERR%
+)
+exit /b 0
