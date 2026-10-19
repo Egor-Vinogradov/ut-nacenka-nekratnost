@@ -77,6 +77,7 @@
 			<CommonModule>тз_НаценкаЗаНекратностьСервер</CommonModule>
 			<CommonModule>тз_УровниПокупателейВызовСервера</CommonModule>
 			<CommonModule>тз_УровниПокупателейСервер</CommonModule>
+			<CommonModule>ПродажиСервер</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonCommand>тз_ВключитьНаценкуПоверхСкидок</CommonCommand>
 			<CommonCommand>тз_ЗагрузитьУровниПоИНН</CommonCommand>
@@ -97,6 +98,7 @@
 			<Document>ЧекККМ</Document>
 			<Enum>тз_УровниПокупателей</Enum>
 			<InformationRegister>тз_КратностьПродажи</InformationRegister>
+			<InformationRegister>тз_СоглашенияУровней</InformationRegister>
 			<InformationRegister>тз_УровниПартнеров</InformationRegister>
 			<InformationRegister>тз_УровниПокупателейПоИНН</InformationRegister>
 		</ChildObjects>
