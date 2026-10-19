@@ -75,10 +75,14 @@
 			<CommonTemplate>тз_ВнешняяОбработкаНаценки</CommonTemplate>
 			<CommonModule>тз_НаценкаЗаНекратностьВызовСервера</CommonModule>
 			<CommonModule>тз_НаценкаЗаНекратностьСервер</CommonModule>
+			<CommonModule>тз_УровниПокупателейВызовСервера</CommonModule>
 			<CommonModule>тз_УровниПокупателейСервер</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonCommand>тз_ВключитьНаценкуПоверхСкидок</CommonCommand>
+			<CommonCommand>тз_ЗагрузитьУровниПоИНН</CommonCommand>
+			<CommonCommand>тз_ЗаполнитьУровниИЦены</CommonCommand>
 			<CommonCommand>тз_НастроитьНаценкуЗаНекратность</CommonCommand>
+			<CommonCommand>тз_УровеньПокупателя</CommonCommand>
 			<Constant>тз_ПроцентНаценкиЗаНекратность</Constant>
 			<Constant>тз_СкидкаНаценкаЗаНекратность</Constant>
 			<Catalog>ВидыНоменклатуры</Catalog>

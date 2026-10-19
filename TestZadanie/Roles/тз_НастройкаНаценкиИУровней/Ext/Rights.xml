@@ -30,6 +30,20 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.тз_УровеньПокупателя</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.тз_ЗаполнитьУровниИЦены</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.тз_КратностьПродажи</name>
 		<right>
 			<name>Read</name>
@@ -109,6 +123,13 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.тз_ЗагрузитьУровниПоИНН</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
