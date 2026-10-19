@@ -72,9 +72,13 @@
 			<Role>тз_НастройкаНаценкиИУровней</Role>
 			<Role>тз_ОсновнаяРоль</Role>
 			<Role>ПолныеПрава</Role>
+			<CommonTemplate>тз_ВнешняяОбработкаНаценки</CommonTemplate>
+			<CommonModule>тз_НаценкаЗаНекратностьВызовСервера</CommonModule>
 			<CommonModule>тз_НаценкаЗаНекратностьСервер</CommonModule>
 			<CommonModule>тз_УровниПокупателейСервер</CommonModule>
+			<CommonCommand>тз_НастроитьНаценкуЗаНекратность</CommonCommand>
 			<Constant>тз_ПроцентНаценкиЗаНекратность</Constant>
+			<Constant>тз_СкидкаНаценкаЗаНекратность</Constant>
 			<Catalog>ВидыНоменклатуры</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>Контрагенты</Catalog>
