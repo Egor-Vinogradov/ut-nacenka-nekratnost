@@ -22,6 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.тз_УровниПокупателейПоИНН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.тз_СкидкаНаценкаЗаНекратность</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.тз_НастроитьНаценкуЗаНекратность</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.тз_ВключитьНаценкуПоверхСкидок</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
