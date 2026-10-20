@@ -9,3 +9,12 @@ _check_user/
 *.log
 build/
 dist/*.epf
+_extlist/
+scripts/*.res
+scripts/*.epf
+scripts/*.txt
+scripts/*.pid
+scripts/*.js
+scripts/*.py
+scripts/_help.cmd
+scripts/build_diag_rights.cmd
