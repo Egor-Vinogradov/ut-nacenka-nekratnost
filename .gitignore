@@ -2,6 +2,7 @@ osn/
 _base/
 backup/
 _check/
+_check_user/
 *.cf
 *.cfe
 *.dt

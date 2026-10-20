@@ -30,7 +30,12 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
 			<ExtendedPresentation/>
-			<Explanation/>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По умолчанию Ложь. Истина пишет в журнал регистрации решения контроля цены и пропуск контроля ролью обхода. Команда заполнения уровней константу не включает.</v8:content>
+				</v8:item>
+			</Explanation>
 			<PasswordMode>false</PasswordMode>
 			<Format/>
 			<EditFormat/>

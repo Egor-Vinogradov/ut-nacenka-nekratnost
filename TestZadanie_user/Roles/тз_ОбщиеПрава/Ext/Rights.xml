@@ -26,17 +26,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.тз_СоглашенияУровней</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.тз_УровниПокупателейПоИНН</name>
 		<right>
 			<name>Read</name>
@@ -49,6 +38,17 @@
 	</object>
 	<object>
 		<name>Constant.тз_СкидкаНаценкаЗаНекратность</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.тз_СоглашенияУровней</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
