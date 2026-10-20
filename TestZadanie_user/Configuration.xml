@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.тз_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.тз_ОбщиеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>Виноградов Егор</Vendor>
 			<Version>1.0.0.0</Version>
@@ -70,7 +70,7 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Role>тз_ИзменениеНаценкиЗаНекратность</Role>
 			<Role>тз_НастройкаНаценкиИУровней</Role>
-			<Role>тз_ОсновнаяРоль</Role>
+			<Role>тз_ОбщиеПрава</Role>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>тз_ВнешняяОбработкаНаценки</CommonTemplate>
 			<CommonModule>тз_НаценкаЗаНекратностьВызовСервера</CommonModule>

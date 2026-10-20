@@ -4,17 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>InformationRegister.тз_УровниПартнеров</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.тз_КратностьПродажи</name>
 		<right>
 			<name>Read</name>
@@ -26,7 +15,29 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.тз_ОтладкаКонтроля</name>
+		<name>InformationRegister.тз_УровниПартнеров</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.тз_СоглашенияУровней</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.тз_УровниПокупателейПоИНН</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -49,17 +60,6 @@
 	</object>
 	<object>
 		<name>Constant.тз_ПроцентНаценкиЗаНекратность</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.тз_УровниПокупателейПоИНН</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
